@@ -331,3 +331,15 @@ plt.legend(loc='best')
 plt.grid()
 plt.savefig('./plots_and_figures/neural_network_learning_curve.png')
 plt.clf()
+# Wykres zawierający wszystkie accuracy
+accuracies = [accuracy_knn3, accuracy_knn5, accuracy_knn7, accuracy_knn9, accuracy_rf, accuracy_dt, accuracy_nb,
+              accuracy]
+models = ['KNN (n=3)', 'KNN (n=5)', 'KNN (n=7)', 'KNN (n=9)', 'Random Forest', 'Decision Tree',
+          'Naive Bayes', 'Neural Network']
+plt.figure(figsize=(10, 9))
+plt.bar(models, accuracies)
+plt.ylabel('Dokładność')
+plt.title('Porównanie dokładności modeli')
+plt.xticks(rotation=45)
+plt.grid()
+plt.savefig('./plots_and_figures/accuracy_comparison.png')

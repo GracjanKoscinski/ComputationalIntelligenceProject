@@ -7,21 +7,20 @@ df = pd.read_csv('./../preprocessing/youtubeChannelsPreprocessed.csv')
 # Przekształcenie kolumn tekstowych na format binarny
 text_columns = ['youtuber', 'category', 'title', 'country', 'abbreviation', 'channel_type']
 for col in text_columns:
-    df[col] = df[col].astype(str).apply(lambda x: 1 if x else 0).astype(bool)  # Tutaj modyfikacja
-
-# Przekształcenie 'created_at' na format binarny dla ostatnich 30 dni
-df['created_at'] = pd.to_datetime(df['created_at'])
+    df[col] = df[col].astype(str).apply(lambda x: 1 if x else 0).astype(bool)
 
 
-# Usunięcie kolumn, które nie są potrzebne do analizy
-numeric_columns = ['rank', 'subscribers', 'video_views', 'video_views_rank', 'country_rank', 'video_views_for_the_last_30_days',
-                     'lowest_monthly_earnings', 'highest_monthly_earnings', 'lowest_yearly_earnings', 'highest_yearly_earnings',
-                     'subscribers_for_last_30_days', 'gross_tertiary_education_enrollment', 'population', 'unemployment_rate',
-                     'urban_population']
+numeric_columns = ['rank', 'subscribers', 'video_views', 'video_views_rank', 'country_rank',
+                   'video_views_for_the_last_30_days',
+                   'lowest_monthly_earnings', 'highest_monthly_earnings', 'lowest_yearly_earnings',
+                   'highest_yearly_earnings',
+                   'subscribers_for_last_30_days', 'gross_tertiary_education_enrollment', 'population',
+                   'unemployment_rate',
+                   'urban_population']
 
 for col in numeric_columns:
-    df[col] = df[col].astype(str).apply(lambda x: 1 if x else 0).astype(bool)  # Tutaj modyfikacja
-# Stworzenie DataFrame z dummy variables dla kolumn tekstowych
+    df[col] = df[col].astype(str).apply(lambda x: 1 if x else 0).astype(bool)
+# Stworzenie DataFrame z dummy variables dla kolumn tekstowych oraz numerycznych
 basket = pd.get_dummies(df[text_columns + numeric_columns], drop_first=True)
 
 # Zastosowanie algorytmu Apriori
