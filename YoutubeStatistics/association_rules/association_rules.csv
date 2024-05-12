@@ -1,0 +1,603 @@
+antecedents,consequents,antecedent support,consequent support,support,confidence,lift,leverage,conviction,zhangs_metric
+frozenset({'youtuber'}),frozenset({'category'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'category'}),frozenset({'youtuber'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'youtuber'}),frozenset({'title'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'title'}),frozenset({'youtuber'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'youtuber'}),frozenset({'country'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'country'}),frozenset({'youtuber'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'youtuber'}),frozenset({'abbreviation'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'abbreviation'}),frozenset({'youtuber'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'youtuber'}),frozenset({'channel_type'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'channel_type'}),frozenset({'youtuber'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'category'}),frozenset({'title'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'title'}),frozenset({'category'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'category'}),frozenset({'country'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'country'}),frozenset({'category'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'category'}),frozenset({'abbreviation'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'abbreviation'}),frozenset({'category'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'category'}),frozenset({'channel_type'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'channel_type'}),frozenset({'category'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'title'}),frozenset({'country'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'country'}),frozenset({'title'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'title'}),frozenset({'abbreviation'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'abbreviation'}),frozenset({'title'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'title'}),frozenset({'channel_type'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'channel_type'}),frozenset({'title'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'abbreviation'}),frozenset({'country'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'country'}),frozenset({'abbreviation'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'channel_type'}),frozenset({'country'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'country'}),frozenset({'channel_type'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'abbreviation'}),frozenset({'channel_type'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'channel_type'}),frozenset({'abbreviation'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category'})",frozenset({'title'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title'})",frozenset({'category'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title'})",frozenset({'youtuber'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'youtuber'}),"frozenset({'category', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'category'}),"frozenset({'youtuber', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'title'}),"frozenset({'youtuber', 'category'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category'})",frozenset({'country'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'country'})",frozenset({'category'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'country'})",frozenset({'youtuber'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'youtuber'}),"frozenset({'category', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'category'}),"frozenset({'youtuber', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'country'}),"frozenset({'youtuber', 'category'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category'})",frozenset({'abbreviation'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation'})",frozenset({'category'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation'})",frozenset({'youtuber'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'youtuber'}),"frozenset({'category', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'category'}),"frozenset({'youtuber', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'abbreviation'}),"frozenset({'youtuber', 'category'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category'})",frozenset({'channel_type'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'channel_type'})",frozenset({'category'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'channel_type'})",frozenset({'youtuber'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'youtuber'}),"frozenset({'category', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'category'}),"frozenset({'youtuber', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'channel_type'}),"frozenset({'youtuber', 'category'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title'})",frozenset({'country'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'country'})",frozenset({'title'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'country'})",frozenset({'youtuber'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'youtuber'}),"frozenset({'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'title'}),"frozenset({'youtuber', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'country'}),"frozenset({'youtuber', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title'})",frozenset({'abbreviation'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation'})",frozenset({'title'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'abbreviation'})",frozenset({'youtuber'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'youtuber'}),"frozenset({'title', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'title'}),"frozenset({'youtuber', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'abbreviation'}),"frozenset({'youtuber', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title'})",frozenset({'channel_type'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'channel_type'})",frozenset({'title'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'channel_type'})",frozenset({'youtuber'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'youtuber'}),"frozenset({'title', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'title'}),"frozenset({'youtuber', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'channel_type'}),"frozenset({'youtuber', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation'})",frozenset({'country'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'country'})",frozenset({'abbreviation'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'country'})",frozenset({'youtuber'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'youtuber'}),"frozenset({'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'abbreviation'}),"frozenset({'youtuber', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'country'}),"frozenset({'youtuber', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'channel_type'})",frozenset({'country'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'country'})",frozenset({'channel_type'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'channel_type', 'country'})",frozenset({'youtuber'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'youtuber'}),"frozenset({'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'channel_type'}),"frozenset({'youtuber', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'country'}),"frozenset({'youtuber', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation'})",frozenset({'channel_type'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'channel_type'})",frozenset({'abbreviation'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'channel_type'})",frozenset({'youtuber'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'youtuber'}),"frozenset({'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'abbreviation'}),"frozenset({'youtuber', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'channel_type'}),"frozenset({'youtuber', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title'})",frozenset({'country'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'country'})",frozenset({'title'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'country'})",frozenset({'category'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'category'}),"frozenset({'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'title'}),"frozenset({'category', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'country'}),"frozenset({'category', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title'})",frozenset({'abbreviation'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation'})",frozenset({'title'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'abbreviation'})",frozenset({'category'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'category'}),"frozenset({'title', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'title'}),"frozenset({'category', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'abbreviation'}),"frozenset({'category', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title'})",frozenset({'channel_type'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'channel_type'})",frozenset({'title'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'channel_type'})",frozenset({'category'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'category'}),"frozenset({'title', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'title'}),"frozenset({'category', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'channel_type'}),"frozenset({'category', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation'})",frozenset({'country'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'country'})",frozenset({'abbreviation'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'country'})",frozenset({'category'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'category'}),"frozenset({'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'abbreviation'}),"frozenset({'category', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'country'}),"frozenset({'category', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'channel_type'})",frozenset({'country'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'country'})",frozenset({'channel_type'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'channel_type', 'country'})",frozenset({'category'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'category'}),"frozenset({'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'channel_type'}),"frozenset({'category', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'country'}),"frozenset({'category', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation'})",frozenset({'channel_type'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'channel_type'})",frozenset({'abbreviation'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'channel_type'})",frozenset({'category'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'category'}),"frozenset({'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'abbreviation'}),"frozenset({'category', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'channel_type'}),"frozenset({'category', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'abbreviation'})",frozenset({'country'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'country'})",frozenset({'abbreviation'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'country'})",frozenset({'title'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'title'}),"frozenset({'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'abbreviation'}),"frozenset({'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'country'}),"frozenset({'title', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'channel_type'})",frozenset({'country'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'country'})",frozenset({'channel_type'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'channel_type', 'country'})",frozenset({'title'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'title'}),"frozenset({'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'channel_type'}),"frozenset({'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'country'}),"frozenset({'title', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'abbreviation'})",frozenset({'channel_type'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'channel_type'})",frozenset({'abbreviation'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'channel_type'})",frozenset({'title'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'title'}),"frozenset({'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'abbreviation'}),"frozenset({'title', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'channel_type'}),"frozenset({'title', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'channel_type'})",frozenset({'country'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'country'})",frozenset({'channel_type'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'channel_type', 'country'})",frozenset({'abbreviation'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'abbreviation'}),"frozenset({'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'channel_type'}),"frozenset({'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'country'}),"frozenset({'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category', 'title'})",frozenset({'country'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category', 'country'})",frozenset({'title'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title', 'country'})",frozenset({'category'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title', 'country'})",frozenset({'youtuber'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category'})","frozenset({'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title'})","frozenset({'category', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'country'})","frozenset({'category', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title'})","frozenset({'youtuber', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'country'})","frozenset({'youtuber', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'country'})","frozenset({'youtuber', 'category'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'youtuber'}),"frozenset({'category', 'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'category'}),"frozenset({'youtuber', 'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'title'}),"frozenset({'youtuber', 'category', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'country'}),"frozenset({'youtuber', 'category', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category', 'title'})",frozenset({'abbreviation'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category', 'abbreviation'})",frozenset({'title'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title', 'abbreviation'})",frozenset({'category'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title', 'abbreviation'})",frozenset({'youtuber'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category'})","frozenset({'title', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title'})","frozenset({'category', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation'})","frozenset({'category', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title'})","frozenset({'youtuber', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation'})","frozenset({'youtuber', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'abbreviation'})","frozenset({'youtuber', 'category'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'youtuber'}),"frozenset({'category', 'title', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'category'}),"frozenset({'youtuber', 'title', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'title'}),"frozenset({'youtuber', 'category', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'abbreviation'}),"frozenset({'youtuber', 'category', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category', 'channel_type'})",frozenset({'title'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title', 'channel_type'})",frozenset({'category'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category', 'title'})",frozenset({'channel_type'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title', 'channel_type'})",frozenset({'youtuber'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'channel_type'})","frozenset({'category', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category'})","frozenset({'title', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title'})","frozenset({'category', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'channel_type'})","frozenset({'youtuber', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'channel_type'})","frozenset({'youtuber', 'category'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title'})","frozenset({'youtuber', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'youtuber'}),"frozenset({'category', 'title', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'channel_type'}),"frozenset({'youtuber', 'category', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'category'}),"frozenset({'youtuber', 'title', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'title'}),"frozenset({'youtuber', 'category', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'category'})",frozenset({'country'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'country'})",frozenset({'category'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category', 'country'})",frozenset({'abbreviation'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation', 'country'})",frozenset({'youtuber'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation'})","frozenset({'category', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category'})","frozenset({'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'country'})","frozenset({'category', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation'})","frozenset({'youtuber', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'country'})","frozenset({'youtuber', 'category'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'country'})","frozenset({'youtuber', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'youtuber'}),"frozenset({'category', 'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'abbreviation'}),"frozenset({'youtuber', 'category', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'category'}),"frozenset({'youtuber', 'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'country'}),"frozenset({'youtuber', 'abbreviation', 'category'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category', 'channel_type'})",frozenset({'country'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category', 'country'})",frozenset({'channel_type'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'channel_type', 'country'})",frozenset({'category'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'channel_type', 'country'})",frozenset({'youtuber'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category'})","frozenset({'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'channel_type'})","frozenset({'category', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'country'})","frozenset({'category', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'channel_type'})","frozenset({'youtuber', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'country'})","frozenset({'youtuber', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'channel_type', 'country'})","frozenset({'youtuber', 'category'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'youtuber'}),"frozenset({'category', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'category'}),"frozenset({'youtuber', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'channel_type'}),"frozenset({'youtuber', 'category', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'country'}),"frozenset({'youtuber', 'category', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category', 'channel_type'})",frozenset({'abbreviation'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category', 'abbreviation'})",frozenset({'channel_type'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'channel_type'})",frozenset({'category'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation', 'channel_type'})",frozenset({'youtuber'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category'})","frozenset({'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'channel_type'})","frozenset({'category', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation'})","frozenset({'category', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'channel_type'})","frozenset({'youtuber', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation'})","frozenset({'youtuber', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'channel_type'})","frozenset({'youtuber', 'category'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'youtuber'}),"frozenset({'category', 'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'category'}),"frozenset({'youtuber', 'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'channel_type'}),"frozenset({'youtuber', 'category', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'abbreviation'}),"frozenset({'youtuber', 'category', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'title'})",frozenset({'country'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'country'})",frozenset({'title'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title', 'country'})",frozenset({'abbreviation'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'abbreviation', 'country'})",frozenset({'youtuber'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation'})","frozenset({'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title'})","frozenset({'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'country'})","frozenset({'title', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'abbreviation'})","frozenset({'youtuber', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'country'})","frozenset({'youtuber', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'country'})","frozenset({'youtuber', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'youtuber'}),"frozenset({'title', 'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'abbreviation'}),"frozenset({'youtuber', 'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'title'}),"frozenset({'youtuber', 'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'country'}),"frozenset({'youtuber', 'abbreviation', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title', 'channel_type'})",frozenset({'country'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title', 'country'})",frozenset({'channel_type'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'channel_type', 'country'})",frozenset({'title'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'channel_type', 'country'})",frozenset({'youtuber'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title'})","frozenset({'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'channel_type'})","frozenset({'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'country'})","frozenset({'title', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'channel_type'})","frozenset({'youtuber', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'country'})","frozenset({'youtuber', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'channel_type', 'country'})","frozenset({'youtuber', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'youtuber'}),"frozenset({'title', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'title'}),"frozenset({'youtuber', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'channel_type'}),"frozenset({'youtuber', 'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'country'}),"frozenset({'youtuber', 'title', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title', 'channel_type'})",frozenset({'abbreviation'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title', 'abbreviation'})",frozenset({'channel_type'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'channel_type'})",frozenset({'title'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'abbreviation', 'channel_type'})",frozenset({'youtuber'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title'})","frozenset({'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'channel_type'})","frozenset({'title', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation'})","frozenset({'title', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'channel_type'})","frozenset({'youtuber', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'abbreviation'})","frozenset({'youtuber', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'channel_type'})","frozenset({'youtuber', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'youtuber'}),"frozenset({'title', 'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'title'}),"frozenset({'youtuber', 'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'channel_type'}),"frozenset({'youtuber', 'title', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'abbreviation'}),"frozenset({'youtuber', 'title', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'channel_type'})",frozenset({'country'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'country'})",frozenset({'channel_type'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'channel_type', 'country'})",frozenset({'abbreviation'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'channel_type', 'country'})",frozenset({'youtuber'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation'})","frozenset({'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'channel_type'})","frozenset({'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'country'})","frozenset({'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'channel_type'})","frozenset({'youtuber', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'country'})","frozenset({'youtuber', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'channel_type', 'country'})","frozenset({'youtuber', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'youtuber'}),"frozenset({'abbreviation', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'abbreviation'}),"frozenset({'youtuber', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'channel_type'}),"frozenset({'youtuber', 'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'country'}),"frozenset({'youtuber', 'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation', 'title'})",frozenset({'country'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation', 'country'})",frozenset({'title'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title', 'country'})",frozenset({'abbreviation'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'abbreviation', 'country'})",frozenset({'category'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation'})","frozenset({'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title'})","frozenset({'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'country'})","frozenset({'title', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'abbreviation'})","frozenset({'category', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'country'})","frozenset({'category', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'country'})","frozenset({'category', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'category'}),"frozenset({'title', 'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'abbreviation'}),"frozenset({'category', 'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'title'}),"frozenset({'category', 'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'country'}),"frozenset({'category', 'abbreviation', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title', 'channel_type'})",frozenset({'country'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title', 'country'})",frozenset({'channel_type'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'channel_type', 'country'})",frozenset({'title'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'channel_type', 'country'})",frozenset({'category'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title'})","frozenset({'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'channel_type'})","frozenset({'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'country'})","frozenset({'title', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'channel_type'})","frozenset({'category', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'country'})","frozenset({'category', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'channel_type', 'country'})","frozenset({'category', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'category'}),"frozenset({'title', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'title'}),"frozenset({'category', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'channel_type'}),"frozenset({'category', 'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'country'}),"frozenset({'category', 'title', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title', 'channel_type'})",frozenset({'abbreviation'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title', 'abbreviation'})",frozenset({'channel_type'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation', 'channel_type'})",frozenset({'title'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'abbreviation', 'channel_type'})",frozenset({'category'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title'})","frozenset({'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'channel_type'})","frozenset({'title', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation'})","frozenset({'title', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'channel_type'})","frozenset({'category', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'abbreviation'})","frozenset({'category', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'channel_type'})","frozenset({'category', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'category'}),"frozenset({'title', 'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'title'}),"frozenset({'category', 'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'channel_type'}),"frozenset({'category', 'title', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'abbreviation'}),"frozenset({'category', 'title', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation', 'channel_type'})",frozenset({'country'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation', 'country'})",frozenset({'channel_type'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'channel_type', 'country'})",frozenset({'abbreviation'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'channel_type', 'country'})",frozenset({'category'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation'})","frozenset({'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'channel_type'})","frozenset({'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'country'})","frozenset({'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'channel_type'})","frozenset({'category', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'country'})","frozenset({'category', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'channel_type', 'country'})","frozenset({'category', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'category'}),"frozenset({'abbreviation', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'abbreviation'}),"frozenset({'category', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'channel_type'}),"frozenset({'category', 'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'country'}),"frozenset({'category', 'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'abbreviation', 'channel_type'})",frozenset({'country'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'abbreviation', 'country'})",frozenset({'channel_type'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'channel_type', 'country'})",frozenset({'abbreviation'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'channel_type', 'country'})",frozenset({'title'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'abbreviation'})","frozenset({'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'channel_type'})","frozenset({'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'country'})","frozenset({'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'channel_type'})","frozenset({'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'country'})","frozenset({'title', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'channel_type', 'country'})","frozenset({'title', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'title'}),"frozenset({'abbreviation', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'abbreviation'}),"frozenset({'title', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'channel_type'}),"frozenset({'title', 'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'country'}),"frozenset({'title', 'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'category', 'country'})",frozenset({'title'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'category', 'title'})",frozenset({'country'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'title', 'country'})",frozenset({'category'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation', 'title', 'country'})",frozenset({'youtuber'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category', 'title', 'country'})",frozenset({'abbreviation'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'category'})","frozenset({'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'country'})","frozenset({'category', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'title'})","frozenset({'category', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation', 'country'})","frozenset({'youtuber', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation', 'title'})","frozenset({'youtuber', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'abbreviation', 'country'})","frozenset({'youtuber', 'category'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category', 'country'})","frozenset({'title', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category', 'title'})","frozenset({'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title', 'country'})","frozenset({'category', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title', 'country'})","frozenset({'youtuber', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation'})","frozenset({'category', 'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation'})","frozenset({'youtuber', 'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'country'})","frozenset({'youtuber', 'category', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'abbreviation'})","frozenset({'youtuber', 'category', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category'})","frozenset({'title', 'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'country'})","frozenset({'category', 'abbreviation', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title'})","frozenset({'category', 'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'country'})","frozenset({'youtuber', 'abbreviation', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title'})","frozenset({'youtuber', 'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'country'})","frozenset({'youtuber', 'abbreviation', 'category'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'abbreviation'}),"frozenset({'youtuber', 'category', 'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'youtuber'}),"frozenset({'category', 'abbreviation', 'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'category'}),"frozenset({'youtuber', 'abbreviation', 'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'country'}),"frozenset({'youtuber', 'abbreviation', 'category', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'title'}),"frozenset({'youtuber', 'abbreviation', 'category', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category', 'channel_type', 'country'})",frozenset({'title'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category', 'channel_type', 'title'})",frozenset({'country'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category', 'title', 'country'})",frozenset({'channel_type'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title', 'channel_type', 'country'})",frozenset({'category'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title', 'channel_type', 'country'})",frozenset({'youtuber'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category', 'channel_type'})","frozenset({'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category', 'country'})","frozenset({'title', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category', 'title'})","frozenset({'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'channel_type', 'country'})","frozenset({'category', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title', 'channel_type'})","frozenset({'category', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title', 'country'})","frozenset({'category', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'channel_type', 'country'})","frozenset({'youtuber', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title', 'channel_type'})","frozenset({'youtuber', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title', 'country'})","frozenset({'youtuber', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'channel_type', 'country'})","frozenset({'youtuber', 'category'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category'})","frozenset({'title', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'channel_type'})","frozenset({'category', 'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'country'})","frozenset({'category', 'title', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title'})","frozenset({'category', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'channel_type'})","frozenset({'youtuber', 'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'country'})","frozenset({'youtuber', 'title', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title'})","frozenset({'youtuber', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'channel_type', 'country'})","frozenset({'youtuber', 'category', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'channel_type'})","frozenset({'youtuber', 'category', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'country'})","frozenset({'youtuber', 'category', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'youtuber'}),"frozenset({'category', 'title', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'category'}),"frozenset({'youtuber', 'title', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'channel_type'}),"frozenset({'youtuber', 'category', 'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'country'}),"frozenset({'youtuber', 'category', 'channel_type', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'title'}),"frozenset({'youtuber', 'category', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'channel_type', 'abbreviation', 'category'})",frozenset({'title'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'category', 'title'})",frozenset({'channel_type'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'channel_type', 'title'})",frozenset({'category'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation', 'channel_type', 'title'})",frozenset({'youtuber'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category', 'channel_type', 'title'})",frozenset({'abbreviation'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'category'})","frozenset({'title', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'channel_type'})","frozenset({'category', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'title'})","frozenset({'category', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation', 'channel_type'})","frozenset({'youtuber', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation', 'title'})","frozenset({'youtuber', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'abbreviation', 'channel_type'})","frozenset({'youtuber', 'category'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category', 'channel_type'})","frozenset({'title', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category', 'title'})","frozenset({'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title', 'channel_type'})","frozenset({'category', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title', 'channel_type'})","frozenset({'youtuber', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation'})","frozenset({'category', 'title', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation'})","frozenset({'youtuber', 'title', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'channel_type'})","frozenset({'youtuber', 'category', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'abbreviation'})","frozenset({'youtuber', 'category', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category'})","frozenset({'title', 'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'channel_type'})","frozenset({'category', 'abbreviation', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title'})","frozenset({'category', 'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'channel_type'})","frozenset({'youtuber', 'abbreviation', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title'})","frozenset({'youtuber', 'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'channel_type'})","frozenset({'youtuber', 'abbreviation', 'category'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'abbreviation'}),"frozenset({'youtuber', 'category', 'channel_type', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'youtuber'}),"frozenset({'category', 'abbreviation', 'channel_type', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'category'}),"frozenset({'youtuber', 'abbreviation', 'channel_type', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'channel_type'}),"frozenset({'youtuber', 'abbreviation', 'category', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'title'}),"frozenset({'youtuber', 'channel_type', 'abbreviation', 'category'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'channel_type', 'abbreviation', 'category'})",frozenset({'country'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'category', 'country'})",frozenset({'channel_type'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'channel_type', 'country'})",frozenset({'category'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation', 'channel_type', 'country'})",frozenset({'youtuber'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category', 'channel_type', 'country'})",frozenset({'abbreviation'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'category'})","frozenset({'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'channel_type'})","frozenset({'category', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'country'})","frozenset({'category', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation', 'channel_type'})","frozenset({'youtuber', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation', 'country'})","frozenset({'youtuber', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'channel_type', 'country'})","frozenset({'youtuber', 'category'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category', 'channel_type'})","frozenset({'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category', 'country'})","frozenset({'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'channel_type', 'country'})","frozenset({'category', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'channel_type', 'country'})","frozenset({'youtuber', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation'})","frozenset({'category', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation'})","frozenset({'youtuber', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'channel_type'})","frozenset({'youtuber', 'category', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'country'})","frozenset({'youtuber', 'category', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category'})","frozenset({'abbreviation', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'channel_type'})","frozenset({'category', 'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'country'})","frozenset({'category', 'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'channel_type'})","frozenset({'youtuber', 'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'country'})","frozenset({'youtuber', 'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'channel_type', 'country'})","frozenset({'youtuber', 'abbreviation', 'category'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'abbreviation'}),"frozenset({'youtuber', 'category', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'youtuber'}),"frozenset({'category', 'abbreviation', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'category'}),"frozenset({'youtuber', 'abbreviation', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'channel_type'}),"frozenset({'youtuber', 'abbreviation', 'category', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'country'}),"frozenset({'youtuber', 'channel_type', 'abbreviation', 'category'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'channel_type', 'country'})",frozenset({'title'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'channel_type', 'title'})",frozenset({'country'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'title', 'country'})",frozenset({'channel_type'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'abbreviation', 'channel_type', 'country'})",frozenset({'youtuber'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title', 'channel_type', 'country'})",frozenset({'abbreviation'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'channel_type'})","frozenset({'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'country'})","frozenset({'title', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'title'})","frozenset({'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'channel_type', 'country'})","frozenset({'youtuber', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'abbreviation', 'channel_type'})","frozenset({'youtuber', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'abbreviation', 'country'})","frozenset({'youtuber', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'channel_type', 'country'})","frozenset({'title', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title', 'channel_type'})","frozenset({'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title', 'country'})","frozenset({'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'channel_type', 'country'})","frozenset({'youtuber', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation'})","frozenset({'title', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'channel_type'})","frozenset({'youtuber', 'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'country'})","frozenset({'youtuber', 'title', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'abbreviation'})","frozenset({'youtuber', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'channel_type'})","frozenset({'title', 'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'country'})","frozenset({'title', 'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title'})","frozenset({'abbreviation', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'channel_type', 'country'})","frozenset({'youtuber', 'abbreviation', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'channel_type'})","frozenset({'youtuber', 'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'country'})","frozenset({'youtuber', 'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'abbreviation'}),"frozenset({'youtuber', 'title', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'youtuber'}),"frozenset({'title', 'abbreviation', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'channel_type'}),"frozenset({'youtuber', 'abbreviation', 'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'country'}),"frozenset({'youtuber', 'abbreviation', 'channel_type', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'title'}),"frozenset({'youtuber', 'abbreviation', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation', 'channel_type', 'country'})",frozenset({'title'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation', 'channel_type', 'title'})",frozenset({'country'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation', 'title', 'country'})",frozenset({'channel_type'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'abbreviation', 'channel_type', 'country'})",frozenset({'category'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title', 'channel_type', 'country'})",frozenset({'abbreviation'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation', 'channel_type'})","frozenset({'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation', 'country'})","frozenset({'title', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation', 'title'})","frozenset({'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'channel_type', 'country'})","frozenset({'category', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'abbreviation', 'channel_type'})","frozenset({'category', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'abbreviation', 'country'})","frozenset({'category', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'channel_type', 'country'})","frozenset({'title', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title', 'channel_type'})","frozenset({'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title', 'country'})","frozenset({'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'channel_type', 'country'})","frozenset({'category', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation'})","frozenset({'title', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'channel_type'})","frozenset({'category', 'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'country'})","frozenset({'category', 'title', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'abbreviation'})","frozenset({'category', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'channel_type'})","frozenset({'title', 'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'country'})","frozenset({'title', 'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title'})","frozenset({'abbreviation', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'channel_type', 'country'})","frozenset({'category', 'abbreviation', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'channel_type'})","frozenset({'category', 'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'country'})","frozenset({'category', 'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'abbreviation'}),"frozenset({'category', 'title', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'category'}),"frozenset({'title', 'abbreviation', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'channel_type'}),"frozenset({'category', 'abbreviation', 'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'country'}),"frozenset({'category', 'abbreviation', 'channel_type', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'title'}),"frozenset({'category', 'abbreviation', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'youtuber', 'category', 'channel_type', 'country'})",frozenset({'title'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'youtuber', 'category', 'channel_type', 'title'})",frozenset({'country'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'youtuber', 'category', 'country', 'title'})",frozenset({'channel_type'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'youtuber', 'channel_type', 'country', 'title'})",frozenset({'category'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'category', 'channel_type', 'country', 'title'})",frozenset({'youtuber'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category', 'channel_type', 'country', 'title'})",frozenset({'abbreviation'}),1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'channel_type', 'abbreviation', 'category'})","frozenset({'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'category', 'country'})","frozenset({'title', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'category', 'title'})","frozenset({'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'channel_type', 'country'})","frozenset({'category', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'channel_type', 'title'})","frozenset({'category', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'title', 'country'})","frozenset({'category', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation', 'channel_type', 'country'})","frozenset({'youtuber', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation', 'channel_type', 'title'})","frozenset({'youtuber', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation', 'title', 'country'})","frozenset({'youtuber', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'abbreviation', 'channel_type', 'country'})","frozenset({'youtuber', 'category'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category', 'channel_type', 'country'})","frozenset({'title', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category', 'channel_type', 'title'})","frozenset({'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category', 'title', 'country'})","frozenset({'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title', 'channel_type', 'country'})","frozenset({'category', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title', 'channel_type', 'country'})","frozenset({'youtuber', 'abbreviation'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'category'})","frozenset({'title', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'channel_type'})","frozenset({'category', 'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'country'})","frozenset({'category', 'title', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation', 'title'})","frozenset({'category', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation', 'channel_type'})","frozenset({'youtuber', 'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation', 'country'})","frozenset({'youtuber', 'title', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation', 'title'})","frozenset({'youtuber', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'channel_type', 'country'})","frozenset({'youtuber', 'category', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'abbreviation', 'channel_type'})","frozenset({'youtuber', 'category', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'abbreviation', 'country'})","frozenset({'youtuber', 'category', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category', 'channel_type'})","frozenset({'title', 'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category', 'country'})","frozenset({'title', 'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category', 'title'})","frozenset({'abbreviation', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'channel_type', 'country'})","frozenset({'category', 'abbreviation', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title', 'channel_type'})","frozenset({'category', 'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title', 'country'})","frozenset({'category', 'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'channel_type', 'country'})","frozenset({'youtuber', 'abbreviation', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title', 'channel_type'})","frozenset({'youtuber', 'abbreviation', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title', 'country'})","frozenset({'youtuber', 'abbreviation', 'channel_type'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'channel_type', 'country'})","frozenset({'youtuber', 'abbreviation', 'category'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'abbreviation'})","frozenset({'category', 'title', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'abbreviation'})","frozenset({'youtuber', 'title', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'channel_type'})","frozenset({'youtuber', 'category', 'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'abbreviation', 'country'})","frozenset({'youtuber', 'category', 'channel_type', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'abbreviation'})","frozenset({'youtuber', 'category', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'category'})","frozenset({'title', 'abbreviation', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'channel_type'})","frozenset({'category', 'abbreviation', 'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'country'})","frozenset({'category', 'abbreviation', 'channel_type', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'youtuber', 'title'})","frozenset({'category', 'abbreviation', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'channel_type'})","frozenset({'youtuber', 'abbreviation', 'title', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'country'})","frozenset({'youtuber', 'abbreviation', 'channel_type', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'category', 'title'})","frozenset({'youtuber', 'abbreviation', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'channel_type', 'country'})","frozenset({'youtuber', 'abbreviation', 'category', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'channel_type'})","frozenset({'youtuber', 'abbreviation', 'category', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+"frozenset({'title', 'country'})","frozenset({'youtuber', 'channel_type', 'abbreviation', 'category'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'abbreviation'}),"frozenset({'youtuber', 'category', 'channel_type', 'country', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'youtuber'}),"frozenset({'abbreviation', 'category', 'channel_type', 'country', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'category'}),"frozenset({'abbreviation', 'youtuber', 'channel_type', 'country', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'channel_type'}),"frozenset({'abbreviation', 'youtuber', 'category', 'country', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'country'}),"frozenset({'abbreviation', 'youtuber', 'category', 'channel_type', 'title'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0
+frozenset({'title'}),"frozenset({'abbreviation', 'youtuber', 'category', 'channel_type', 'country'})",1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0

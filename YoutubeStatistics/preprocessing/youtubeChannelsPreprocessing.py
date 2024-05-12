@@ -1,11 +1,14 @@
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
-from sklearn.linear_model import LogisticRegression
 from sklearn.linear_model import LinearRegression
 df = pd.read_csv("Global YouTube Statistics.csv", encoding='latin-1')
 pd.set_option('display.max_columns', 200)
 # print(df.head())
+
+# print("Przed zmianą nazw kolumn")
+# print(df.isnull().sum())
+
 # Złączenie kolumn 'created_year', 'created_month', 'created_date' w jedną kolumnę 'created_at'
 df['created_year'] = df['created_year'].astype(str).str.split('.').str[0]
 df['created_month'] = df['created_month'].astype(str)
@@ -23,7 +26,8 @@ df.rename(columns={"Gross tertiary education enrollment (%)": "gross_tertiary_ed
 df.columns = [col.lower() for col in df.columns]
 
 # Obsługa wartości nan
-# print(df.isnull().sum())
+print("Przed preprocessowaniem")
+print(df.isnull().sum())
 # rank                                     0
 # youtuber                                 0
 # subscribers                              0
@@ -74,34 +78,39 @@ df = df[~df['title'].str.contains('¿')]
 df = df[~df['title'].str.contains('ï')]
 df = df[~df['title'].str.contains('ż')]
 
-# użycie logistic regression do przewidzenia wartości dla 'category' i 'channel_type'
 
-label_encoder = LabelEncoder()
-df['encoded_youtuber'] = label_encoder.fit_transform(df['youtuber'])
-df['encoded_title'] = label_encoder.fit_transform(df['title'])
-
-train_df = df.dropna(subset=['category'])
-test_df = df[df['category'].isnull()]
-
-features = ['encoded_youtuber', 'encoded_title']
-target = 'category'
-
-logistic_regression = LogisticRegression(max_iter=1000000)
-logistic_regression.fit(train_df[features], train_df[target])
-predictions = logistic_regression.predict(test_df[features])
-df.loc[df['category'].isnull(), 'category'] = predictions
-
-train_df = df.dropna(subset=['channel_type'])
-test_df = df[df['channel_type'].isnull()]
-features = ['encoded_youtuber', 'encoded_title']
-target = 'channel_type'
-logistic_regression = LogisticRegression(max_iter=1000000)
-logistic_regression.fit(train_df[features], train_df[target])
-predictions = logistic_regression.predict(test_df[features])
-df.loc[df['channel_type'].isnull(), 'channel_type'] = predictions
+# usunięcie kategorii, gdzie jest nan
+df = df.dropna(subset=['category'])
+class_counts = df['category'].value_counts()
+print(class_counts)
+# wyświetl, które dane są nadal nan
+print(df.isnull().sum())
+# Najmniej liczne kategorie:
+# Science & Technology     14
+# Shows                    10
+# Sports                     9
+# Pets & Animals             3
+# Movies                     2
+# Nonprofits & Activism      2
+# Autos & Vehicles           2
+# Trailers                   2
+df = df[~df['category'].str.contains('Sports')]
+df = df[~df['category'].str.contains('Trailers')]
+df = df[~df['category'].str.contains('Pets & Animals')]
+df = df[~df['category'].str.contains('Movies')]
+df = df[~df['category'].str.contains('Nonprofits & Activism')]
+df = df[~df['category'].str.contains('Autos & Vehicles')]
+df = df[~df['category'].str.contains('Shows')]
+df = df[~df['category'].str.contains('Science & Technology')]
+print("Po usunięciu pustych kategorii")
+print(df.isnull().sum())
+# usunięcie channel_type gdzie jest nan
+df = df.dropna(subset=['channel_type'])
 
 # użycie LinearRegression do przewidzenia wartości dla 'subscribers_for_last_30_days'
 # oraz 'video_views_for_the_last_30_days'
+label_encoder = LabelEncoder()
+
 df['encoded_subscribers'] = label_encoder.fit_transform(df['subscribers'])
 df['encoded_video_views'] = label_encoder.fit_transform(df['video_views'])
 
@@ -373,6 +382,7 @@ df.loc[df['country'] == 'Jordan', 'unemployment_rate'] = 14.72
 df.loc[df['country'] == 'Jordan', 'urban_population'] = 9213048.0
 
 # zapisz plik jako 'youtubeChannelsPreprocessed.csv'
-df.drop(['encoded_youtuber', 'encoded_title', 'encoded_subscribers', 'encoded_video_views'], axis=1, inplace=True)
+df.drop(['encoded_subscribers', 'encoded_video_views'], axis=1, inplace=True)
 print(df.isnull().sum())
+
 df.to_csv("youtubeChannelsPreprocessed.csv", index=False)
